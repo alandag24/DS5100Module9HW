@@ -1,7 +1,7 @@
-from booklover import booklover
+from booklover.booklover import BookLover
 
-lover = booklover.BookLover("Alanda","alandag24@gmail.com","mystery")
+lover = BookLover("Alanda","alandag24@gmail.com","mystery")
 
 lover.add_book("Harry Potter", 4)
 
-lover.num_books_read
+print(lover.num_books_read())
